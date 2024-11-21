@@ -13,7 +13,7 @@ const app = express();
 app.use(
   cors({
     credentials: true,
-    origin: process.env.NETLIFY_URL || "https://gvs-kanbas-react-web-app.netlify.app" || "https://a5--gvs-kanbas-react-web-app.netlify.app",
+    origin: process.env.NETLIFY_URL || "https://a5--gvs-kanbas-react-web-app.netlify.app",
   })
 );
 const sessionOptions = {
